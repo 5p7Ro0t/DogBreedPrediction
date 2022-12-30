@@ -36,7 +36,7 @@ if uploaded_file is not None:
         custom_data = create_data_batches(custom_image_path, test_data=True)
 
         full_model = load_model("static/model.h5")
-
+        custom_data
         # Make predictions on the custom data
         custom_preds = full_model.predict(custom_data)
 
