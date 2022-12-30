@@ -37,6 +37,8 @@ if uploaded_file is not None:
 
         full_model = load_model("static/model.h5")
         custom_data
+        
+        full_model
         # Make predictions on the custom data
         custom_preds = full_model.predict(custom_data)
 
